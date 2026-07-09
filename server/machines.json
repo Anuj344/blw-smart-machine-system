@@ -183,7 +183,7 @@
     "Chip Conveyor",
     "Emergency Stop Button"
   ],
-  "image": "http://10.249.218.161:5000/uploads/1783231020954.jpeg",
+  "image": "https://blw-smart-machine-system.onrender.com/uploads/1783233372116.jpeg",
   "createdAt": {
     "$date": "2026-07-05T05:57:01.154Z"
   },
@@ -246,7 +246,7 @@
     "Depth Stop",
     "Machine Vice"
   ],
-  "image": "http://10.249.218.161:5000/uploads/1783232497180.jpeg",
+  "image": "https://blw-smart-machine-system.onrender.com/uploads/1783233372116.jpeg",
   "createdAt": {
     "$date": "2026-07-05T06:21:37.263Z"
   },
@@ -308,7 +308,7 @@
     "On/Off Switch",
     "Eye Shield"
   ],
-  "image": "http://10.249.218.161:5000/uploads/1783233372116.jpeg",
+  "image": "https://blw-smart-machine-system.onrender.com/uploads/1783233372116.jpeg",
   "createdAt": {
     "$date": "2026-07-05T06:36:12.217Z"
   },
@@ -370,7 +370,7 @@
     "Work Table",
     "Control Panel"
   ],
-  "image": "http://10.249.218.161:5000/uploads/1783233852419.jpeg",
+  "image": "https://blw-smart-machine-system.onrender.com/uploads/1783233372116.jpeg",
   "createdAt": {
     "$date": "2026-07-05T06:44:12.484Z"
   },
@@ -432,7 +432,7 @@
     "Feed Rod",
     "Electric Motor"
   ],
-  "image": "http://10.249.218.161:5000/uploads/1783234304745.jpeg",
+  "image": "https://blw-smart-machine-system.onrender.com/uploads/1783233372116.jpeg",
   "createdAt": {
     "$date": "2026-07-05T06:51:44.792Z"
   },
@@ -496,7 +496,7 @@
     "Electric Motor",
     "Control Levers"
   ],
-  "image": "http://10.249.218.161:5000/uploads/1783234861545.jpeg",
+  "image": "https://blw-smart-machine-system.onrender.com/uploads/1783233372116.jpeg",
   "createdAt": {
     "$date": "2026-07-05T07:01:01.597Z"
   },
@@ -560,7 +560,7 @@
     "Electric Motor",
     "Control Panel"
   ],
-  "image": "http://10.249.218.161:5000/uploads/1783235322829.jpeg",
+  "image": "https://blw-smart-machine-system.onrender.com/uploads/1783233372116.jpeg",
   "createdAt": {
     "$date": "2026-07-05T07:08:42.834Z"
   },
@@ -624,7 +624,7 @@
     "Feed Mechanism",
     "Electric Motor"
   ],
-  "image": "http://10.249.218.161:5000/uploads/1783235739414.jpeg",
+  "image": "https://blw-smart-machine-system.onrender.com/uploads/1783233372116.jpeg",
   "createdAt": {
     "$date": "2026-07-05T07:15:39.473Z"
   },

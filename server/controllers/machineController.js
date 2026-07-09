@@ -14,11 +14,10 @@ const addMachine = async (req, res) => {
     try {
 
         // Base URL
-        const frontendURL =
-`${req.protocol}://${req.hostname}:5500`;
+        const backendURL = `${req.protocol}://${req.get("host")}`;
 
-const backendURL =
-`${req.protocol}://${req.hostname}:${PORT}`;
+const frontendURL =
+    process.env.FRONTEND_URL || backendURL;
         // Image Upload
         if (req.file) {
 req.body.image =
@@ -195,6 +194,19 @@ const getMachineById = async (req, res) => {
 
         }
 
+        const backendURL =
+`${req.protocol}://${req.get("host")}`;
+
+if(machine.image){
+
+const filename =
+machine.image.split("/").pop();
+
+machine.image =
+`${backendURL}/uploads/${filename}`;
+
+}
+
         res.status(200).json({
 
             success: true,
@@ -229,8 +241,11 @@ const updateMachine = async (req, res) => {
 
     try {
 
-        const frontendURL = process.env.BASE_URL;
-const backendURL = `http://${req.hostname}:${process.env.PORT || 5000}`;
+        const backendURL =
+`${req.protocol}://${req.get("host")}`;
+
+const frontendURL =
+process.env.FRONTEND_URL || backendURL;
         // Update Image
 
     if (req.file) {
